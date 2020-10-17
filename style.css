@@ -12,13 +12,16 @@
     width: 100%;
 }
 
-.bloco {
-
+body{
+	background-color: gray;
 }
+
+
 
 @media only screen and (min-width: 769px) {
     .bloco {
-        float: left;
+		float: left;
+		padding-bottom: 20px;
     
     }
     .bloco2 {
@@ -59,18 +62,35 @@
 	
 }
 
+.card-img-top{
+	border-radius: 20px;
+}
+
+.card{
+	border-radius: 20px;
+}
+
+
 /**CONFIGURAÇÃO FOOTER**/
 
 .rodape{
+	
 	background-color: rgba(180, 180, 180, 0.918);
 	color: rgb(51, 51, 51);
-	position: relative;
-	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: center;
 }
 
 .artic{
 	width: 33.33%;
-	height: 10px;
+	
+}
+.imglogo{
+	width:200px;
+	height:80px;
+	margin: 0px;
 }
 
 	/** Style do carrinho**/
