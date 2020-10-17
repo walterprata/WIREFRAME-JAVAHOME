@@ -1,49 +1,56 @@
-#main{
-	max-width: 1080px;
-	margin: 0auto;
+#main {
+    max-width: 1080px;
+    margin: 0auto;
 }
 
-#banner{
-	width: 1080px;
-	height: 350px;
+#banner {
+    width: 1080px;
+    height: 350px;
 }
 
-.container{
-	width: 100%;
+.container {
+    width: 100%;
 }
 
-.bloco{
-	float: left;
-	width: 100%;
-	height: 530px;
-	margin-left: 2%;
+.bloco {
+    float: left;
+    width: 100%;
+    height: 530px;
+    margin-left: 2%;
 }
 
-@media only screen and (min-width: 769px){
-
-.bloco{
-	float: left;
-	width: 30%;
-	height: 525px;
-	margin-left: 1%;
-	margin-right: 2%;
+@media only screen and (min-width: 769px) {
+    .bloco {
+        float: left;
+        width: 30%;
+        height: 525px;
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+    .bloco2 {
+        float: left;
+        width: 20%;
+        height: 200px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 
-}
 
 /** CONFIGURAÇÃO DA NAVBAR **/
-#pesquisa{
-	border-radius: 20px;
+
+#pesquisa {
+    border-radius: 20px;
 }
 
-#nome{
-	border: 0px;
-	padding: 0px;
+#nome {
+    border: 0px;
+    padding: 0px;
 }
 
-.container{
-	border: 0px;
-	padding: 0px;
+.container {
+    border: 0px;
+    padding: 0px;
 }
 
 
@@ -76,36 +83,53 @@
 .content{
 	margin-top: 30px;
 }
-.dt-produto{
-	display: flex;
+/** Style do carrinho**/
+
+.content {
+    margin-top: 30px;
+}
+
+.dt-produto {
+    display: flex;
     align-content: center;
     align-items: center;
 }
-.dt-produto>span{
-	display: flex;
-	align-content: center;
-	align-items: center;
+
+.dt-produto>span {
+    display: flex;
+    align-content: center;
+    align-items: center;
 }
-.qtd-produto{
+
+.qtd-produto {
     display: flex;
     align-items: center;
     align-content: center;
 }
-.qtd-produto>input{
-   width: 50px;
+
+.qtd-produto>input {
+    width: 50px;
 }
-.box-resumo{
+
+.box-resumo {
     margin-top: 30px;
     padding: 10px;
     border: solid 2px #000000;
 }
-.item-carrinho{
+
+.item-carrinho {
     margin-top: 15px;
 }
-.item-carrinho-lista{
+
+.item-carrinho-lista {
     list-style: none !important;
 }
 .carrinho-btn-finalizar{
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.carrinho-btn-finalizar {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

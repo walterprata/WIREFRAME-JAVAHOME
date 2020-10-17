@@ -1,71 +1,167 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
-  <title>Loja de Jogos</title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Loja de Jogos</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-grid.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark"> 
-        <a class="navbar-brand" href="Index.html">Tads Games</a>
-        
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        
-          <a class="navbar-brand" href="#">
-          <img src="images/icon_login.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-          Login
-          </a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a id="nome" class="navbar-brand" href="#">JAVAHOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="navbar-brand " href="#">
+                      Jogos
+                    </a>
+                    </li>
 
-          <a class="navbar-brand" href="#">
-          <img src="images/cesta.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-          Carrinho
-          </a>    
-    </nav>
-    <center><br>
-        <div class="btn-group" role="group" aria-label="Basic example"> 
-            <button type="button" class="btn btn-secondary">Consoles</button>
-            <button type="button" class="btn btn-secondary">Jogos</button>
-            <button type="button" class="btn btn-secondary">Periféricos</button>
-        </div><br><br>            
-    </center>
-    <br>
-    <div class="container"><center>
-      <div class="bloco">
-        <body onload="slide8()"> 
-          <div id="main">
-            <img src="images/play51.webp" width="500" height="500" alt="slide show" id="banner">
-          </div>
-          <script src="slide.js"></script> 
-        </body>
-        <div class="bloco">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Playstation 5</h5>
-              <h6 class="card-subtitle mb-2 text-muted">R$ 4.899,99</h6>
-              <p class="card-text">Jogar não tem Limites. Desfrute do carregamento extremamente rápido com o SSD de altíssima velocidade.</p>
-              <a href="Carrinho.html" class="btn btn-primary">Comprar</a>
-              
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="Carrinho.html">
+                      Console
+                    </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="Carrinho.html">
+                      Periféricos
+                    </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="navbar-brand " href="#">
+                            <img src="images/icon_login.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Login
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="Carrinho.html">
+                            <img src="images/cesta.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Carrinho
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline ">
+                    <input id="pesquisa" class="form-control mr-sm-2" type="search" placeholder="Busca" aria-label="Buscar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
             </div>
-          </div>
-      </div></center>
-      
-  </div>
-</div>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="container">
+        <center>
+            <div class='bloco2'>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/play51.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/play52.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/play53.webp" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Console Playstation 5</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">R$ 4.999.99</h6>
+                    <p class="card-text">em 1x no cartão de crédito</p>
+                    <p class="card-text">Calcular frete:</p>
+                    CEP: <input type="text" id="cep" name="cep" placeholder="00000-000" /><br><br>
+                    <a href="Carrinho.html" class="btn btn-dark text-white bg-dark mb-3">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+        </center>
+        <br>
+        <div class="card">
+            <div class="card-header">
+                Descrição Curta
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>Jogar não tem Limites. Desfrute do carregamento extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis
+                        para Console PlayStation®5 - PS5.</p>
+                </blockquote>
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-header">
+                Descrição Longa
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <ul>
+                        <li>Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer.</li>
+                        <li>SSD ultrarrápido: Maximize suas sessões de jogo com tempos de carregamento praticamente instantâneos para jogos do PS5 instalados.</li>
+                        <li>E/S integrada: A integração personalizada dos sistemas de console PS5 permite que os criadores extraiam dados do SSD tão rápido que eles podem desenvolver jogos de formas que antes seriam impossíveis.</li>
+                        <li>Maravilhe-se com os gráficos incríveis e experimente os recursos do novo PS5.</li>
+                        <li>Versão com leitor de BluRay.</li>
+                    </ul>
+                </blockquote>
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-header">
+                Perguntas e Respostas
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>Tem Bluetooth? </p>
+                    <footer class="blockquote-footer">Sim</footer>
+                    <br>
+                    <p>Wi-Fi Integrado? </p>
+                    <footer class="blockquote-footer">Sim</footer>
+                    <br>
+
+                </blockquote>
+            </div>
+        </div>
+
+    </div>
+    <footer class="page-footer font-small special-color-dark pt-4">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="Index.html">JAVAHOME</a>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
