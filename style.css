@@ -45,3 +45,41 @@
 	border: 0px;
 	padding: 0px;
 }
+
+/** Style do carrinho**/
+.content{
+	margin-top: 30px;
+}
+.dt-produto{
+	display: flex;
+    align-content: center;
+    align-items: center;
+}
+.dt-produto>span{
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+.qtd-produto{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.qtd-produto>input{
+   width: 50px;
+}
+.box-resumo{
+    margin-top: 30px;
+    padding: 10px;
+    border: solid 2px #000000;
+}
+.item-carrinho{
+    margin-top: 15px;
+}
+.item-carrinho-lista{
+    list-style: none !important;
+}
+.carrinho-btn-finalizar{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
