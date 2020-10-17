@@ -13,21 +13,13 @@
 }
 
 .bloco {
-    float: left;
-    width: 100%;
-    height: 530px;
-    margin-left: 2%;
+
 }
 
 @media only screen and (min-width: 769px) {
     .bloco {
         float: left;
-        width: 30%;
-        height: 525px;
-        margin-left: 1%;
-		margin-right: 2%;
-		border-radius: 500px;
-		margin: 0px;
+    
     }
     .bloco2 {
         float: left;
