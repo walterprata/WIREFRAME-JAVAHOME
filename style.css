@@ -45,3 +45,10 @@
 	border: 0px;
 	padding: 0px;
 }
+
+/**Container de conteudo**/
+
+.conteudo{
+	border: 0px;
+	padding: 5%;
+}
