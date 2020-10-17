@@ -25,7 +25,9 @@
         width: 30%;
         height: 525px;
         margin-left: 1%;
-        margin-right: 2%;
+		margin-right: 2%;
+		border-radius: 500px;
+		margin: 0px;
     }
     .bloco2 {
         float: left;
@@ -70,7 +72,7 @@
 .rodape{
 	background-color: rgba(180, 180, 180, 0.918);
 	color: rgb(51, 51, 51);
-	position: absolute;
+	position: relative;
 	bottom: 0;
 }
 
