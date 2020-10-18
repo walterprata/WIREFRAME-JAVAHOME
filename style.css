@@ -35,6 +35,9 @@ body{
 
 
 /** CONFIGURAÇÃO DA NAVBAR **/
+nav{
+    border-bottom: 3px solid rgb(8, 228, 0);
+}
 
 #pesquisa {
     border-radius: 20px;
@@ -80,7 +83,10 @@ body{
 	display: flex;
 	justify-content: space-around;
 	padding: 10px;
-	align-items: center;
+    align-items: center;
+    border-top: 3px solid rgb(8, 228, 0);
+    
+    
 }
 
 .artic{
