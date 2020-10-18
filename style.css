@@ -27,9 +27,15 @@ body{
     .bloco2 {
         float: left;
         width: 20%;
-        height: 200px;
+        height: 300px;
         margin-left: 10%;
         margin-right: 10%;
+        border: double 4px transparent;
+        margin: auto;	
+        border-radius: 20px;
+        background-image: linear-gradient(white, gray), radial-gradient(circle at top left, #00C853, #B2FF59);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
     }
 }
 
