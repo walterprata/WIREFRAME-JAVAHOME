@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html xmlns:div="http://www.w3.org/1999/html">
+
 <head>
     <title>Loja de Jogos</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <meta charset="utf-8">
 
@@ -14,8 +15,9 @@
 <header>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
-        
-    <a id="nome" class="navbar-brand" href="Index.html">JAVAHOME </a>
+
+        <a class="navbar-brand" href="Index.html">
+            <img class="logoprinc" src="images\logo3.png" width="150" height="30"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,48 +27,42 @@
 
                 <ul class="navbar-nav mr-auto">
 
-                  <li class="nav-item">
-                    <a class="navbar-brand " href="#">
+                    <li class="nav-item">
+                        <a class="navbar-brand " href="#">
                   Jogos
                 </a>
-                </li>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="navbar-brand" href="#">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="#">
                   Console
                 </a>
-                </li>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="navbar-brand" href="#">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="#">
                   Periféricos
                 </a>
-                </li>
+                    </li>
                 </ul>
 
                 <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">
                         <a class="navbar-brand " href="#">
-                            <img src="images/icon_login.png" width="30" height="30" class="d-inline-block align-top"
-                                 alt=""
-                                 loading="lazy">
-                            Login
+                            <img src="images/icon_login.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Login
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="navbar-brand" href="Carrinho.html">
-                            <img src="images/cesta.png" width="30" height="30" class="d-inline-block align-top" alt=""
-                                 loading="lazy">
-                            Carrinho
+                            <img src="images/cesta.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Carrinho
                         </a>
                     </li>
                 </ul>
 
                 <form class="form-inline ">
-                    <input id="pesquisa" class="form-control mr-sm-2" type="search" placeholder="Busca"
-                           aria-label="Buscar">
+                    <input id="pesquisa" class="form-control mr-sm-2" type="search" placeholder="Busca" aria-label="Buscar">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                 </form>
 
@@ -75,123 +71,118 @@
 
     </nav>
 </header>
+
 <body class="carrinho">
-<div class="container">
-    <div class="row">
-        <!-- Conteudo da pagina -->
+    <div class="container">
+        <div class="row">
+            <!-- Conteudo da pagina -->
 
-        <div class="content col-md-12">
-            <h2>Meu Carrinho</h2>
+            <div class="content col-md-12">
+                <h2>Meu Carrinho</h2>
 
 
-            <!-- Lista Com produtos -->
-            <ul class="item-carrinho-lista">
-                <li>
-                    <!-- Cabeçalho do carrinho -->
-                    <div class="row item-carrinho">
-                        <div class="col-md-6 ">
-                            <h6>Produto</h6>
+                <!-- Lista Com produtos -->
+                <ul class="item-carrinho-lista">
+                    <li>
+                        <!-- Cabeçalho do carrinho -->
+                        <div class="row item-carrinho">
+                            <div class="col-md-6 ">
+                                <h6>Produto</h6>
+                            </div>
+                            <div class="col-md-3 qtd-produto">
+                                <h6>Qtd</h6>
+                            </div>
+                            <div class="col-md-3 dt-produto">
+                                <h6>Preço</h6>
+                            </div>
                         </div>
-                        <div class="col-md-3 qtd-produto">
-                            <h6>Qtd</h6>
+                        <hr class="my-4">
+                        <!-- Fim Cabeçalho -->
+                    </li>
+                    <li>
+                        <div class="row item-carrinho">
+                            <div class="col-md-3 ">
+                                <img src="https://www.lojanovaera.com/image/cache/data/1-Produtos/ps5/-ps5--500x500.jpg" alt="..." class="img-thumbnail img-fluid">
+                            </div>
+                            <div class="col-md-3 dt-produto">
+                                <h4 class="align-middle">Playstation 5</h4>
+                            </div>
+                            <div class="col-md-3 qtd-produto">
+                                <input type="number" max="3" min="0" value="1" />
+                            </div>
+                            <div class="col-md-3 dt-produto">
+                                <span>R$ 0.000,00</span>
+                            </div>
                         </div>
-                        <div class="col-md-3 dt-produto">
-                            <h6>Preço</h6>
+                        <hr class="my-4">
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-md-3 ">
+                                <img src="https://www.lojanovaera.com/image/cache/data/1-Produtos/acessorios/ps4/8493772456_9885d9d6ad_h.0-500x500.jpg" alt="..." class="img-thumbnail img-fluid">
+                            </div>
+                            <div class="col-md-3 dt-produto">
+                                <h4>Controle</h4>
+                            </div>
+                            <div class="col-md-3 qtd-produto">
+                                <input type="number" max="3" min="0" value="3" />
+                            </div>
+                            <div class="col-md-3 dt-produto">
+                                <span>R$ 000,00</span>
+                            </div>
                         </div>
-                    </div>
-                    <hr class="my-4">
-                    <!-- Fim Cabeçalho -->
-                </li>
-                <li>
-                    <div class="row item-carrinho">
-                        <div class="col-md-3 ">
-                            <img src="https://www.lojanovaera.com/image/cache/data/1-Produtos/ps5/-ps5--500x500.jpg" alt="..."
-                                 class="img-thumbnail img-fluid">
-                        </div>
-                        <div class="col-md-3 dt-produto">
-                            <h4 class="align-middle">Playstation 5</h4>
-                        </div>
-                        <div class="col-md-3 qtd-produto">
-                            <input type="number" max="3" min="0" value="1"/>
-                        </div>
-                        <div class="col-md-3 dt-produto">
-                            <span>R$ 0.000,00</span>
-                        </div>
-                    </div>
-                    <hr class="my-4">
-                </li>
-                <li>
-                    <div class="row">
-                        <div class="col-md-3 ">
-                            <img src="https://www.lojanovaera.com/image/cache/data/1-Produtos/acessorios/ps4/8493772456_9885d9d6ad_h.0-500x500.jpg"
-                                 alt="..." class="img-thumbnail img-fluid">
-                        </div>
-                        <div class="col-md-3 dt-produto">
-                            <h4>Controle</h4>
-                        </div>
-                        <div class="col-md-3 qtd-produto">
-                            <input type="number" max="3" min="0" value="3"/>
-                        </div>
-                        <div class="col-md-3 dt-produto">
-                            <span>R$ 000,00</span>
-                        </div>
-                    </div>
-                    <hr class="my-4">
-                </li>
-                <li>
-                    <div class="row">
-                        <div class="col-md-3 ">
-                            <img src="https://www.lojanovaera.com/image/cache/data/1-Produtos/Jogos/PS4%20Jogos/Sem%20t%C3%ADtulo-500x500.jpg"
-                                 alt="..." class="img-thumbnail img-fluid">
-                        </div>
-                        <div class="col-md-3 dt-produto">
-                            <h4 class="align-middle">Jogo 1</h4>
-                        </div>
-                        <div class="col-md-3 qtd-produto">
-                            <input type="number" max="3" min="0" value="2"/>
-                        </div>
-                        <div class="col-md-3 dt-produto">
-                            <span>R$ 000,00</span>
-                        </div>
+                        <hr class="my-4">
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-md-3 ">
+                                <img src="https://www.lojanovaera.com/image/cache/data/1-Produtos/Jogos/PS4%20Jogos/Sem%20t%C3%ADtulo-500x500.jpg" alt="..." class="img-thumbnail img-fluid">
+                            </div>
+                            <div class="col-md-3 dt-produto">
+                                <h4 class="align-middle">Jogo 1</h4>
+                            </div>
+                            <div class="col-md-3 qtd-produto">
+                                <input type="number" max="3" min="0" value="2" />
+                            </div>
+                            <div class="col-md-3 dt-produto">
+                                <span>R$ 000,00</span>
+                            </div>
 
+                        </div>
+                        <hr class="my-4">
+                    </li>
+                </ul>
+                <!-- Fim Lista -->
+                <!-- Resumo -->
+                <div class="row">
+                    <div class="box-resumo">
+                        <h5>Resumo do pedido</h5>
+                        <p>3 produtos</p>
+                        <p>Total: R$ 0.000,00</p>
                     </div>
-                    <hr class="my-4">
-                </li>
-            </ul>
-            <!-- Fim Lista -->
-            <!-- Resumo -->
-            <div class="row">
-                <div class="box-resumo">
-                    <h5>Resumo do pedido</h5>
-                    <p>3 produtos</p>
-                    <p>Total: R$ 0.000,00</p>
                 </div>
-            </div>
-            <!-- Fim Resumo -->
-            <div class="row">
-                <button type="button" class="btn btn-secondary carrinho-btn-finalizar">Continuar</button>
+                <!-- Fim Resumo -->
+                <div class="row">
+                    <button type="button" class="btn btn-secondary carrinho-btn-finalizar">Continuar</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<footer class="rodape">
-    <article class="artic">
-        <img class="imglogo" src="images\logo2.png">
-    </article>
-    <article class="artic">
-        <p>Consoles, Jogos e Periféricos</p>
-    </article>
-    <article class="artic">
-        <p>© 2020 Copyright</p>
-    </article>
-</footer>
-<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+    <footer class="rodape">
+        <article class="artic">
+            <img class="imglogo" src="images\logo2.png">
+        </article>
+        <article class="artic">
+            <p>Consoles, Jogos e Periféricos</p>
+        </article>
+        <article class="artic">
+            <p>© 2020 Copyright</p>
+        </article>
+    </footer>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

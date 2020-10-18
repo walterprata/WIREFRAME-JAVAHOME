@@ -12,17 +12,14 @@
     width: 100%;
 }
 
-body{
-	background-image: linear-gradient(to bottom, gray, black);
+body {
+    background-image: linear-gradient(to bottom, gray, black);
 }
-
-
 
 @media only screen and (min-width: 769px) {
     .bloco {
-		float: left;
-		padding-bottom: 20px;
-    
+        float: left;
+        padding-bottom: 20px;
     }
     .bloco2 {
         float: left;
@@ -31,7 +28,7 @@ body{
         margin-left: 10%;
         margin-right: 10%;
         border: double 4px transparent;
-        margin: auto;	
+        margin: auto;
         border-radius: 20px;
         background-image: linear-gradient(white, gray), radial-gradient(circle at top left, #00C853, #B2FF59);
         background-origin: border-box;
@@ -41,7 +38,8 @@ body{
 
 
 /** CONFIGURAÇÃO DA NAVBAR **/
-nav{
+
+nav {
     border-bottom: 4px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to left, #00C853, #B2FF59);
@@ -62,24 +60,22 @@ nav{
 }
 
 
-
 /**Container de conteudo**/
 
-.conteudo{
-	border: 0px;
-	padding: 5%;
-	position: relative;
-	padding-bottom: 30px;
-	
+.conteudo {
+    border: 0px;
+    padding: 5%;
+    position: relative;
+    padding-bottom: 30px;
 }
 
-.card-img-top{
-	border-radius: 20px 20px 0px 0px;
+.card-img-top {
+    border-radius: 20px 20px 0px 0px;
 }
 
-.card{
+.card {
     border: double 4px transparent;
-    margin: auto;	
+    margin: auto;
     border-radius: 20px;
     background-image: linear-gradient(white, gray), radial-gradient(circle at top left, #00C853, #B2FF59);
     background-origin: border-box;
@@ -89,38 +85,40 @@ nav{
 
 /**CONFIGURAÇÃO FOOTER**/
 
-.rodape{
-	
-	background-color: rgba(180, 180, 180, 0.918);
-	color: rgb(51, 51, 51);
-	display: flex;
-	justify-content: space-around;
-	padding: 10px;
+.rodape {
+    background-color: rgba(180, 180, 180, 0.918);
+    color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
     align-items: center;
     border-top: 4px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to left, #00C853, #B2FF59);
-    
-    
 }
 
-.artic{
-	width: 33.33%;
-	
-}
-.imglogo{
-	width:200px;
-	height:80px;
-	margin: 0px;
+.artic {
+    width: 33.33%;
 }
 
-	/** Style do carrinho**/
-.content{
-	margin-top: 30px;
+.imglogo {
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    margin-left: 10%;
 }
+
+
 /** Style do carrinho**/
 
-.carrinho{
+.content {
+    margin-top: 30px;
+}
+
+
+/** Style do carrinho**/
+
+.carrinho {
     color: blanchedalmond;
 }
 
@@ -165,9 +163,10 @@ nav{
 .item-carrinho-lista {
     list-style: none !important;
 }
-.carrinho-btn-finalizar{
-	margin-top: 30px;
-	margin-bottom: 30px;
+
+.carrinho-btn-finalizar {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .carrinho-btn-finalizar {
@@ -175,6 +174,6 @@ nav{
     margin-bottom: 30px;
 }
 
-.my-4{
+.my-4 {
     background-color: blanchedalmond;
 }
