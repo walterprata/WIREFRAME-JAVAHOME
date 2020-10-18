@@ -36,7 +36,9 @@ body{
 
 /** CONFIGURAÇÃO DA NAVBAR **/
 nav{
-    border-bottom: 3px solid rgb(8, 228, 0);
+    border-bottom: 4px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
 }
 
 #pesquisa {
@@ -70,8 +72,12 @@ nav{
 }
 
 .card{
+    border: double 4px transparent;
+    margin: auto;	
     border-radius: 20px;
-    border: 3px solid rgb(8, 228, 0);
+    background-image: linear-gradient(white, gray), radial-gradient(circle at top left, #00C853, #B2FF59);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
 
 
@@ -85,7 +91,9 @@ nav{
 	justify-content: space-around;
 	padding: 10px;
     align-items: center;
-    border-top: 3px solid rgb(8, 228, 0);
+    border-top: 4px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
     
     
 }
