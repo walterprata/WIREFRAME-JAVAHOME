@@ -3,6 +3,13 @@
     margin: 0auto;
 }
 
+
+
+  .navbar .navbar-brand:hover{
+    color:rgb(28, 243, 0) ;
+    transition: 2s;
+  }
+
 #banner {
     width: 1080px;
     height: 350px;
