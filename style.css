@@ -7,9 +7,8 @@
 
   .navbar .navbar-brand:hover{
     color:rgb(28, 243, 0) ;
-    transition: 2s;
-    text-shadow: 0 0 4px #fff, 0 0 4px #ff0;
-  }
+    transition: 1s;
+    text-shadow: 0 0 4px #fff;
 
 #banner {
     width: 1080px;
